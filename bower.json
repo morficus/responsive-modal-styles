@@ -1,0 +1,27 @@
+{
+  "name": "responsive-modal-styles",
+  "version": "0.0.0",
+  "homepage": "https://github.com/morficus/responsive-modal-styles",
+  "authors": [
+    "Maurice Williams <morficus@gmail.com>"
+  ],
+  "description": "A series of sample CSS to style modals that behave nicely on a variety of screen sizes.",
+  "keywords": [
+    "modal",
+    "responsive",
+    "lightbox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "3.1.x",
+    "bootstrap-2.3.x": "https://github.com/twbs/bootstrap.git#2.3.x",
+    "foundation": "~5.2.2"
+  }
+}
