@@ -1,0 +1,46 @@
+.modal .content {
+    /* adjust "top" and "bottom" attributes to control the height */
+    top: 5%;
+    bottom: 5%;
+
+    /* adjust "left" and "right" attributes to control the width */
+    left: 15%;
+    right: 15%;
+
+    position: absolute;
+    width: auto !important;
+    margin: auto;
+    margin-left: auto !important;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.modal .content .row {
+    position: absolute;
+    max-height: none;
+    overflow: auto;
+
+    /* this is the height of .modal-footer */
+    bottom: 0;
+
+    /* this is the height of .modal-header */
+    top: 40px;
+}
+
+/* tablet-related styles */
+@media (max-width: 768px){
+    .modal .content {
+        right: 10%;
+        left: 10%;
+    }
+}
+
+/* phone-related styles */
+@media (max-width: 600px){
+    .modal .content {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}

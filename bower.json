@@ -22,6 +22,7 @@
   "devDependencies": {
     "bootstrap": "3.1.x",
     "bootstrap-2.3.x": "https://github.com/twbs/bootstrap.git#2.3.x",
-    "foundation": "~5.2.2"
+    "foundation": "~5.2.2",
+    "gumby": "~2.6.3"
   }
 }
