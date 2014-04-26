@@ -1,0 +1,34 @@
+.reveal-modal {
+    /* adjust "top" and "bottom" attributes to control the height */
+    top: 5%;
+    bottom: 5%;
+
+    /* adjust "left" and "right" attributes to control the width */
+    left: 15%;
+    right: 15%;
+
+    position: absolute;
+    width: auto !important;
+    margin: auto;
+    margin-left: auto !important;
+    margin-right: auto;
+    overflow: auto;
+}
+
+/* tablet-related styles */
+@media (max-width: 768px){
+    .reveal-modal {
+        right: 10%;
+        left: 10%;
+    }
+}
+
+/* phone-related styles */
+@media (max-width: 600px){
+    .reveal-modal {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
