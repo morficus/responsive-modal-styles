@@ -1,5 +1,5 @@
 .modal {
-    position: absolute;
+
     /* adjust "top" and "bottom" attributes to control the height */
     top: 10%;
     bottom: 10%;
@@ -8,11 +8,12 @@
     left: 15%;
     right: 15%;
 
+    position: absolute;
     margin: auto;
     width: auto;
 }
 
-.modal-head {
+.modal-header {
     position: absolute;
     top: 0;
     left: 0;
